@@ -1,0 +1,29 @@
+{
+  "name": "gulp-sk",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Archakov06/gulp-sk.git"
+  },
+  "scripts": {
+    "start": "gulp",
+    "gulp": "gulp",
+    "development": "gulp",
+    "production": "gulp -production=true",
+    "watchdev": "gulp watch:all -production=false",
+    "watch": "gulp watch:all -production=true"
+  },
+  "description": "Starter kit for the development of projects using Gulp, Stylus, PugJS, UglifyJS, Autoprefixer-Stylus.",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-pug": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.5.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-watch": "^4.3.10",
+    "autoprefixer-stylus": "^0.11.0"
+  },
+  "license": "MIT",
+  "author": "Archakov Dennis"
+}
